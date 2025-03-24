@@ -29,9 +29,9 @@ public class OrderTransaction {
     }
 
     // Add new method getTotalAmount() as an alias for getTotalPrice()
-    public int getTotalAmount() {
-        return totalPrice;  // Returns the total price (same as getTotalPrice)
-    }
+   public double getTotalPrice() {
+    // method implementation
+}
 
     public String getPaymentMethod() {
         return paymentMethod;
